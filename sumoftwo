@@ -1,0 +1,22 @@
+// E. Gonzalez
+// February 2, 2018
+// To find the sum of two integers
+#include <iostream>
+using namespace std;
+int main()
+
+{
+    int number1;
+    int number2;
+    int total;
+
+    number1 = 50;
+    number2 = 100;
+
+    total = number1 + number2;
+
+    cout << "The Total is " << total << endl;
+    system("pause");
+
+    return 0;
+}
